@@ -1,49 +1,81 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
     <title>Сайт-визитка Тириакиди Полина</title>
 </head>
+
 <body>
-    <header>
-        <h1>Полина Тириакиди</h1>
+    <header id="header">
+        <nav class="nav">
+            <a href="#about" class="nav__link link">Обо мне</a>
+            <a href="#hobby" class="nav__link link">Мои увлечения</a>
+            <a href="#contacts" class="nav__link link">Контакты</a>
+            
+        </nav>
     </header>
-    <main>
-        <img src="img/me.jpg" alt="Моя фотка" width="500" >
-        <h2>Обо мне</h2>
-            <p>Возраст: 35<br>
-            Собираюсь доказать, что менять профессию никогда не поздно, а научиться можно чему угодно.</p>
-        <h2>Мои увлечения</h2>
-            <p>Самое большое увлечение в жизни - это путешествия. Еще люблю гулять пешком, заниматься йогой и готовить вкусную еду.</p>
-        <h2>Мои планы</h2>
-            <p>Стать крутой девчонкой-разработчиком и работать из любой точки мира.</p>
-        <h2>Как я решила стать разработчиком</h2>
-            <p>Мой муж профессионал в сфере IT и зарабатывает много денег. Я захотела так же:)<br>
-               Отдельное ему спасибо за веру в меня, поддержку и работу личного ментора по разработке.  
-            </p>
-        <h2>Как я становилась разработчиком</h2>
-            <ul>
-                <li>Август 2020. Замахнулась на курс Full-stack, но не смогла осилилить Backend</li>
-                <li>Октябрь 2021. Решила начать снова, но уже с полного курса по Frontend</li>
-            </ul>    
+
+    <main class="main">
+
+        <aside class="main-image">
+            <img src="img/me.jpg" alt="Моя фотка" width="400">
+        </aside>
+
+        <section class="main-section">
+                
+            <h1 class="main-title">Полина Тириакиди</h1>
+
+            <h2 class="subtitle" id="about"><img src="img/arrow.svg" alt="стрелочка">Обо мне</h2>
+                <p class="text">Возраст: 35<br>
+                    Собираюсь доказать, что менять профессию никогда не поздно, а научиться можно чему угодно.
+                </p>
+
+
+            <h2 class="subtitle" id="hobby"><img src="img/arrow.svg" alt="стрелочка">Мои увлечения</h2>
+                <p class="text">Самое большое увлечение в жизни - это путешествия. Еще люблю гулять пешком, заниматься йогой и готовить
+                    вкусную еду.
+                </p>
+
+            <h2 class="subtitle" id="plans"><img src="img/arrow.svg" alt="стрелочка">Мои планы</h2>
+                <p class="text">Стать крутой девчонкой-разработчиком и работать из любой точки мира.</p>
+
+            <h2 class="subtitle" id="dev_decision"><img src="img/arrow.svg" alt="стрелочка">Как я решила стать разработчиком</h2>
+                <p class="text">Мой муж профессионал в сфере IT и зарабатывает много денег. Я захотела так же:)<br>
+                    Отдельное ему спасибо за веру в меня, поддержку и работу личного ментора по разработке.
+                </p>
+
+            <h2 class="subtitle" id="dev_process"><img src="img/arrow.svg" alt="стрелочка">Как я становилась разработчиком</h2>
+                <ul class="text">
+                    <li>Август 2020. Замахнулась на курс Full-stack, но не смогла осилилить Backend</li>
+                    <li>Октябрь 2021. Решила начать снова, но уже с полного курса по Frontend</li>
+                </ul>
+        </section>   
     </main>
-    <footer>
-        <h2>Контакты</h2>
-        <div>
-            <p>
-                <img src="img/email.png" alt="email logo" width="40" height="40">
-                e-mail:
-                <a href="mailto:p.tiriakidi@mail.ru">p.tiriakidi@mail.ru</a>
-            </p>
-            <p>
-                <img src="img/github.png" alt="github logo" width="40" height="40">
-                GitHub:
-                <a href="https://github.com/Tiriakidi">https://github.com/Tiriakidi</a>
-            </p>
-        </div>
+
+    <footer class="footer">
+
+        <p class="mail">
+            <img src="img/email.png" alt="email logo" width="40" height="40">
+            e-mail:
+            <a href="mailto:p.tiriakidi@mail.ru" class="link">p.tiriakidi@mail.ru</a>
+        </p>
+        
+        <p class="git">
+            <img src="img/github.png" alt="github logo" width="40" height="40">
+            GitHub:
+            <a href="https://github.com/Tiriakidi" class="link">https://github.com/Tiriakidi</a>
+        </p>
     </footer>
-    
+
 </body>
+
 </html>

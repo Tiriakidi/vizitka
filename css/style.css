@@ -1,0 +1,93 @@
+@font-face {
+    src: url(../fonts/Comfortaa-Regular.ttf);
+    font-family: "Comfrotaa Regular";
+}
+
+@font-face {
+    src: url(../fonts/IBMPlexSerif-Bold.ttf);
+    font-family: "PlexSerif Bold";    
+}
+
+@font-face {
+    src: url(../fonts/IBMPlexSerif-Regular.ttf);
+    font-family: "PlexSerif Regular";
+    
+}
+
+
+
+body {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* Header */
+
+.nav {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid grey;  
+    background-color: rgb(163, 223, 159, 0.2);
+}
+
+.nav__link {
+    padding-right: 20px;
+    color: sandybrown;
+    font-family: "Comfrotaa Regular", Arial, Helvetica, sans-serif
+}
+
+/* Main content */
+
+.main {
+    background-color: #f4ede3;
+    display: flex;
+}
+
+.main-image {
+    padding-left: 20px;
+    align-self: center;
+}
+
+.main-section {
+    padding-left: 40px;
+}
+
+.main-title {
+    margin-top: 0;
+    padding-top: 20px;
+    color: grey;
+    font-family: "PlexSerif Bold", Arial, Helvetica, serif;
+}
+
+.subtitle {
+    padding-left: 10px;
+    font-family: "PlexSerif Bold", Arial, Helvetica, serif;
+}
+
+.text {
+    font-family: "Comfrotaa Regular", Arial, Helvetica, sans-serif
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+    background-color: rgb(214, 186, 230, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    
+    font-family: "Comfrotaa Regular", Arial, Helvetica, sans-serif
+}
+
+
+/* Other configs */
+
+.link:hover {
+    color: slateblue;
+}
+
+
